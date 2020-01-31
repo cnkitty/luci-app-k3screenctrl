@@ -27,20 +27,22 @@ o:value("10",translate("10 s"))
 o.default = 2
 o.rmempty = false
 
-o = s:option(Flag, "city_checkip", translate("Check city from ip"), translate("Check city from local ip."))
-o.default = 0
-
-o = s:option(Value, "city", translate("City :"), 
-			translate("For more information, please visit: %s",
-			"<a href=\"https://docs.seniverse.com/api/start/common.html#%E5%9C%B0%E7%82%B9-location%22\" target=\"_blank\">https://docs.seniverse.com/api/start/common.html#%E5%9C%B0%E7%82%B9-location%22</a>"))
---o.rmempty = false
-
 o = s:option(ListValue, "update_time", translate("Weather update interval :"))
 o:value("3600",translate("1h"))
 o:value("14400",translate("4h"))
 o:value("43200",translate("12h"))
 o.default = 3600
 o.rmempty = false
+
+o = s:option(Value, "key", translate("Private Key :"), 
+translate("please input private key, visit: https://docs.seniverse.com/api/start/key.html"))
+
+o = s:option(Flag, "city_checkip", translate("Check city from ip"), translate("Check city from local ip."))
+o.default = 0
+
+o = s:option(Value, "city", translate("City :"), 
+translate("For more information, please visit: https://docs.seniverse.com/api/start/common.html#地点-location"))
+--o.rmempty = false
 
 o = s:option(Flag, "psk_hide", translate("Hide Wireless password"))
 o.default = 0
