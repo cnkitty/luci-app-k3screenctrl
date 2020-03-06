@@ -1,20 +1,13 @@
 # luci-app-k3screenctrl
 根据 [K3 openwrt18.06.02](https://www.right.com.cn/forum/thread-466672-1-1.html) 固件的LuCi文件而来
 
-个人编译的时候搭配的是:
+编译搭配:
 
-[lwz322/k3screenctrl](https://github.com/lwz322/k3screenctrl)
+[likanchen/k3screenctrl](https://github.com/likanchen/k3screenctrl)
 
-[lwz322/k3screenctrl_build](https://github.com/lwz322/k3screenctrl_build)
+[likanchen/k3screenctrl_build](https://github.com/likanchen/k3screenctrl_build)
 
-# From Hill-98
-## 简介 
-
-本软件包是 [k3screenctrl](https://github.com/updateing/k3screenctrl) 的 Luci 控制界面，方便用户控制 k3screenctrl 和一些附加功能。  
-
-使用本界面推荐配合 [k3screenctrl_sh](https://github.com/Hill-98/k3screenctrl_sh) 优化脚本使用。
-
-本人第一次写 Luci 界面，不是很完美，欢迎指正不足。
+# 鸣谢Hill-98和lwz322
 
 ## 已实现功能
 
