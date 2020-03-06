@@ -35,20 +35,20 @@ o:value("43200",translate("12h"))
 o.default = 0
 o.rmempty = false
 
-o = s:option(Value, "key", translate("Private Key :"), 
+o = s:option(Value, "key", translate("Private Key :"),
 translate("Input private key, visit: https://docs.seniverse.com/api/start/key.html"))
 
 o = s:option(Flag, "city_checkip", translate("Check city from ip"), translate("Check city from local ip."))
 o.default = 0
 
-o = s:option(Value, "city", translate("City :"), 
+o = s:option(Value, "city", translate("City :"),
 translate("For more information, visit: https://docs.seniverse.com/api/start/common.html#地点-location"))
 --o.rmempty = false
 
 o = s:option(Flag, "psk_hide", translate("Hide Wireless password"))
 o.default = 0
 
-o = s:option(Flag, "showmore", translate("Display More Info"), translate("The first page shows more information including: CPU temprature, Load, RAM useage, uptime, etc."))
+o = s:option(Flag, "showmore", translate("Display More Info"), translate("CPU temprature information shows at H/W part in the second page."))
 o.default = 0
 
 o = s:option(Button,"test_print",translate("Test"),translate("Execute k3screenctrl -t and return the result"))

@@ -43,8 +43,8 @@ msgstr "隐藏无线密码"
 msgid "Display More Info"
 msgstr "显示更多信息"
 
-msgid "The first page shows more information including: CPU temprature, Load, RAM useage, uptime, etc."
-msgstr "第一页显示更多信息，包括：CPU温度、负载，内存用量，运行时间等。"
+msgid "CPU temprature information shows at H/W part in the second page."
+msgstr "在第二页的 H/W 处显示CPU温度"
 
 msgid "Test"
 msgstr "测试"
