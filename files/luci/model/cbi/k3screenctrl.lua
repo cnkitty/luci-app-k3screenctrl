@@ -29,9 +29,9 @@ o.rmempty = false
 
 o = s:option(ListValue, "update_time", translate("Weather update interval :"))
 o:value("0",translate("off"))
-o:value("3600",translate("1h"))
-o:value("14400",translate("4h"))
-o:value("43200",translate("12h"))
+o:value("3600",translate("1 h"))
+o:value("14400",translate("4 h"))
+o:value("43200",translate("12 h"))
 o.default = 0
 o.rmempty = false
 
